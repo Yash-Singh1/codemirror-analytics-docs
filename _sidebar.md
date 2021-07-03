@@ -1,2 +1,3 @@
 - [Home](/)
 - [Getting Started](/getting-started)
+- [Rest API](/api.md)
