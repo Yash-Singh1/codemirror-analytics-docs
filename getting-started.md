@@ -17,7 +17,16 @@ npm install codemirror-plugin-analytics
 ## Client-side Setup
 
 1. Import the `index.js` of the package in a script tag
-2. Run the following after importing `index.js` (assuming `editor` is the instance)
+2. Add the following options
+
+```json
+{
+  "analytics": true,
+  "id": "THE_SECRET_YOU_COPIED"
+}
+```
+
+3. Run the following after importing `index.js` (assuming `editor` is the instance)
 
 ```js
 editor.on('optionChange', CodemirrorAnalyticsHooks('THE_SECRET_YOU_COPIED').optionChange);
